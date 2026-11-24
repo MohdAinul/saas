@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { AppProvider } from "./context/AppContext.jsx";
 
-export const server = "http://localhost:7000"; // Backend ka address
+export const server = "http://localhost:7001"; // Backend ka address
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
