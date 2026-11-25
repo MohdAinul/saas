@@ -4,7 +4,8 @@ import "./index.css";
 import App from "./App.jsx";
 import { AppProvider } from "./context/AppContext.jsx";
 
-export const server = "http://localhost:7001"; // Backend ka address
+export const server =
+  import.meta.env.VITE_SERVER_URL || "https://careerai-jmdx.onrender.com";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
